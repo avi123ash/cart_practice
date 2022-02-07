@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto:ital,wght@0,300;1,100;1,400&family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'montserrat';
+}
+section{
+    background-color: rgb(18,26,31);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    min-width: 400px;
+    background-color:rgb(39,55,59);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.display{
+    background-color:rgb(182, 182, 182);
+    width:100%;
+    height: 100px;
+    text-align: right;
+    padding:20px;
+    font-size: 30px;
+    position: relative;
+}
+.display-1{
+   opacity: .5;
+   overflow: hidden;
+   font-size: 20px; 
+}
+.temp-result{
+ position: absolute;
+ bottom: 0;
+ left:10;
+ font-size: 20px;
+ opacity:.4;
+}
+.all-buttons{
+    color:whitesmoke;
+    display: grid;
+    grid-template: repeat(4,1fr)/ repeat(4,1fr);
+}
+.button{
+    border:.5px solid rgba(92,92,92,0.147);
+    width:100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: rgb(30,43,46);
+}
+.btn-0{
+    grid-column: 1/3;
+}
